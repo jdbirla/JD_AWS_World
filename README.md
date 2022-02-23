@@ -1,12 +1,13 @@
 # AWS_Certification_Easy
 AWS cloud certification made easy here
+![AWS_CERT](https://user-images.githubusercontent.com/69948118/155287827-e1dc7345-ebcb-4655-9773-ad7b7af8aa15.png)
 
 I have completed `**AWS Certified Cloud Practitioner**` and `**AWS Certified Solutions Architect – Associate**` certification.
 
 Here is the setps you can follow and get the certfication in one shot with best score and some very useful links.
 
 ## AWS Certified Cloud Practitioner
-
+![AWS-CloudPractitioner-2020](https://user-images.githubusercontent.com/69948118/155288355-6da60105-32de-40cf-8533-771b0759bc22.png)
 1. First go through the Udemy's best tutorial on AWS by stephane-maarek
  [Ultimate AWS Certified Cloud Practitioner - 2022](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/)
  
@@ -21,6 +22,7 @@ Here is the setps you can follow and get the certfication in one shot with best 
    
 
 ## AWS Certified Solutions Architect – Associate
+![SAA](https://user-images.githubusercontent.com/69948118/155288407-09f523dd-7a21-4d56-9dfb-487a29afdcc4.png)
 
 1. First go through the Udemy's best tutorial on AWS by stephane-maarek
  [Ultimate AWS Certified Solutions Architect Associate 2022](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/)
