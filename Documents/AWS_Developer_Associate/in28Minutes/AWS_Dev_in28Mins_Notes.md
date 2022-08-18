@@ -34,5 +34,10 @@ curl http://169.254.169.254/latest/meta-data
 curl http://169.254.169.254/latest/dynamic
 ![image](https://user-images.githubusercontent.com/69948118/185316508-7dd79691-de71-4b0e-ad1a-a9a8e4c6a8b5.png)
 
+### EC2 Hands-on : Setting up a HTTP server
+![image](https://user-images.githubusercontent.com/69948118/185319343-58e1ebde-fdb8-494b-ac96-65b64c1f0068.png)
+![image](https://user-images.githubusercontent.com/69948118/185319344-9aeca9bf-45d6-48ad-8f66-ce0b76ba01ec.png)
+![image](https://user-images.githubusercontent.com/69948118/185322279-10cfb7b3-81b8-46d0-b016-1b792da5f57c.png)
+![image](https://user-images.githubusercontent.com/69948118/185322277-b5988a2a-45f0-4f27-bcb6-9c3566223e7b.png)
 
-
+### 
