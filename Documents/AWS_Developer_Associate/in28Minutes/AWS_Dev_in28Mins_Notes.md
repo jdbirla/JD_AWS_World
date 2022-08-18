@@ -40,4 +40,12 @@ curl http://169.254.169.254/latest/dynamic
 ![image](https://user-images.githubusercontent.com/69948118/185322279-10cfb7b3-81b8-46d0-b016-1b792da5f57c.png)
 ![image](https://user-images.githubusercontent.com/69948118/185322277-b5988a2a-45f0-4f27-bcb6-9c3566223e7b.png)
 
-### 
+### Bootstrapping with Userdata
+```
+#!/bin/bash
+yum update -y
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+curl -s http://169.254.169.254/latest/dynamic/instance-identity/document > /var/www/html/index.html
+```
