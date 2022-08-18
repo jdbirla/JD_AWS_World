@@ -1,0 +1,23 @@
+version: 0.2
+            
+phases:
+  install:
+    runtime-versions:
+      java: corretto11
+    commands:
+      - echo install
+  pre_build:
+    commands:
+      - echo pre_build
+  build:
+    commands:
+      - mvn package
+      - echo build
+  post_build:
+    commands:
+      - echo post_build
+
+artifacts:
+  files:
+    - target/spring-boot-todo-rest-api-h2-aws-codepipeline-0.0.1-SNAPSHOT.jar
+  discard-paths: yes
