@@ -1,4 +1,5 @@
 # AWS_DEVLOPER_IN28Mins
+## Section 3 : Getting up and running with virtual servers in AWS - EC2
 ## Ec2 Instance connect
 1. Inbound rule should be there
 ![image](https://user-images.githubusercontent.com/69948118/185294117-47cc624e-a533-49c6-8120-a1fb474c5069.png)
@@ -49,3 +50,17 @@ systemctl start httpd
 systemctl enable httpd
 curl -s http://169.254.169.254/latest/dynamic/instance-identity/document > /var/www/html/index.html
 ```
+
+### Step11 : Launch Template
+ 
+### Step12 : Creating customized AMI for EC2 instance
+
+### Step15 : EC2 Secutiry keys
+![image](https://user-images.githubusercontent.com/69948118/190059606-d1f19088-b42e-4675-9c6d-7a19604fb31f.png)
+![image](https://user-images.githubusercontent.com/69948118/190060254-487b292b-e3ed-4a76-89ae-df30ace05578.png)
+
+- Connecting from windows
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
+- To convert your private .pem key to .ppk folllow above link instructions
+- ![image](https://user-images.githubusercontent.com/69948118/190062188-b34d117e-e074-4cfd-ac4e-68aabaddf887.png)
+
