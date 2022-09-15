@@ -80,4 +80,15 @@ curl -s http://169.254.169.254/latest/dynamic/instance-identity/document > /var/
 
 ![image](https://user-images.githubusercontent.com/69948118/190305316-4d99bac0-4e75-47ee-bf0e-eb9297f0df86.png)
 
+## Using multiple Target Groups for microservices Architectures
+
+```sh
+#!/bin/bash
+curl -s http://169.254.169.254/latest/dynamic/instance-identity/document > /var/www/html/index.html
+mkdir /var/www/html/a
+echo “Microservice A” > /var/www/html/a/test.html
+```
+![image](https://user-images.githubusercontent.com/69948118/190366871-91382481-ea2d-4265-a734-47089402066a.png)
+
+                                                             
 
