@@ -78,5 +78,6 @@ curl -s http://169.254.169.254/latest/dynamic/instance-identity/document > /var/
 - Change existing security group of EC2 instance , remove inbound rule from anywhere to allow from ALB-SG only in this case we can't access EC2 direclty using public IP rahter we have to use only ALB
 - 
 
+![image](https://user-images.githubusercontent.com/69948118/190305316-4d99bac0-4e75-47ee-bf0e-eb9297f0df86.png)
 
 
