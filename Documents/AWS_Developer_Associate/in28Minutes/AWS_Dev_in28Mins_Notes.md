@@ -64,3 +64,19 @@ curl -s http://169.254.169.254/latest/dynamic/instance-identity/document > /var/
 - To convert your private .pem key to .ppk folllow above link instructions
 - ![image](https://user-images.githubusercontent.com/69948118/190062188-b34d117e-e074-4cfd-ac4e-68aabaddf887.png)
 
+## Section 4 : Take care of billing on the cloud
+
+## Section 5 : Distribusing Load usinf AWS load Balancing
+![image](https://user-images.githubusercontent.com/69948118/190298235-29350bad-9c12-49df-90ad-4fcb7d4f74f8.png)
+![image](https://user-images.githubusercontent.com/69948118/190298690-e6209bf3-c178-4e7b-99af-72385fbedf57.png)
+![image](https://user-images.githubusercontent.com/69948118/190299257-57f5761f-9acb-4580-ae6c-2dd56eba4161.png)
+
+## Aplication Load Balancer
+
+![image](https://user-images.githubusercontent.com/69948118/190304065-3d6d545d-e536-460b-b93e-5093780763a6.png)
+![image](https://user-images.githubusercontent.com/69948118/190304121-c3745c85-3ef3-4756-8be4-fec23449f7f6.png)
+- Change existing security group of EC2 instance , remove inbound rule from anywhere to allow from ALB-SG only in this case we can't access EC2 direclty using public IP rahter we have to use only ALB
+- 
+
+
+
