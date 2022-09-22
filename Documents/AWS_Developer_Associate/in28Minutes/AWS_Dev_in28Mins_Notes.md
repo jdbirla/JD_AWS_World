@@ -90,5 +90,61 @@ echo “Microservice A” > /var/www/html/a/test.html
 ```
 ![image](https://user-images.githubusercontent.com/69948118/190366871-91382481-ea2d-4265-a734-47089402066a.png)
 
+## Section 6 : Serverles : Lambda
+![image](https://user-images.githubusercontent.com/69948118/191644406-e702433f-aba6-461d-9abd-db45dfdaa1c3.png)
+![image](https://user-images.githubusercontent.com/69948118/191645096-fcfd8e7e-3642-4ba6-b26f-43f85c8f20d3.png)
+![image](https://user-images.githubusercontent.com/69948118/191645147-30e1c79d-24de-40bc-8981-12d2c3540382.png)
+![image](https://user-images.githubusercontent.com/69948118/191647063-77ed30c7-8c1c-4dbe-bba8-dfa2759bc115.png)
+![image](https://user-images.githubusercontent.com/69948118/191647077-8a602841-4ddd-4b1a-aa4d-b5e5945ca2d3.png)
+
+  ```js
+  exports.handler = async (event, context) => {
+    // TODO implement
+    
+    console.log(event);
+    
+   console.log(context.functionname);
+   console.log(context.logGroupName);
+   console.log(context.memoryLimitInMB);
+   console.log(context.logStreamName);
+   console.log(context.getRemainingTimeInMillis());
+
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify('Hello from jd Lambda!'),
+    };
+    return response;
+};
+
+
+```
+A function update is still in progress so the invocation went to the previously deployed code and configuration.
+
+Test Event Name
+HelloWorldTestEven1
+
+Response
+{
+  "statusCode": 200,
+  "body": "\"Hello from jd Lambda!\""
+}
+
+Function Logs
+START RequestId: 5968d059-f982-4d6a-8270-20da9b9930af Version: $LATEST
+2022-09-22T02:52:19.107Z	5968d059-f982-4d6a-8270-20da9b9930af	INFO	{ key1: 'value1', key2: 'value2', key3: 'value3' }
+2022-09-22T02:52:19.107Z	5968d059-f982-4d6a-8270-20da9b9930af	INFO	undefined
+2022-09-22T02:52:19.107Z	5968d059-f982-4d6a-8270-20da9b9930af	INFO	/aws/lambda/helloworld
+2022-09-22T02:52:19.107Z	5968d059-f982-4d6a-8270-20da9b9930af	INFO	128
+2022-09-22T02:52:19.107Z	5968d059-f982-4d6a-8270-20da9b9930af	INFO	2022/09/22/[$LATEST]4e0672091caf4e90af5d653ce7ef8f70
+2022-09-22T02:52:19.107Z	5968d059-f982-4d6a-8270-20da9b9930af	INFO	2980
+END RequestId: 5968d059-f982-4d6a-8270-20da9b9930af
+REPORT RequestId: 5968d059-f982-4d6a-8270-20da9b9930af	Duration: 40.08 ms	Billed Duration: 41 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 134.86 ms
+
+Request ID
+5968d059-f982-4d6a-8270-20da9b9930af
+```
+  
+
+
                                                              
 
