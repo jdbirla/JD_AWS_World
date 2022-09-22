@@ -115,7 +115,7 @@ echo “Microservice A” > /var/www/html/a/test.html
     };
     return response;
 };
-
+```
 
 ```
 A function update is still in progress so the invocation went to the previously deployed code and configuration.
