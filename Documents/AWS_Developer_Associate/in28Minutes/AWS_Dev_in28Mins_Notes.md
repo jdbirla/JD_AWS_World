@@ -144,6 +144,15 @@ Request ID
 5968d059-f982-4d6a-8270-20da9b9930af
 ```
   
+## API Gateway
+![image](https://user-images.githubusercontent.com/69948118/191885717-92a82b20-a83f-46c2-9c56-d88e485600c1.png)
+![image](https://user-images.githubusercontent.com/69948118/191885852-0694c962-5a5d-454d-ab5c-328451d417b8.png)
+![image](https://user-images.githubusercontent.com/69948118/191886056-790e42f7-fcb2-443f-8636-aaef85e75063.png)
+![image](https://user-images.githubusercontent.com/69948118/191886161-797d6d70-4302-4e30-8abe-462f84f11873.png)
+![image](https://user-images.githubusercontent.com/69948118/191887154-130b0165-854b-451e-97e8-2a018ba82147.png)
+![image](https://user-images.githubusercontent.com/69948118/191887178-cfa0ea64-4f5f-4c39-bcad-01e90cab1465.png)
+![image](https://user-images.githubusercontent.com/69948118/191887221-f20c1ecd-53b4-4375-b690-070f15f030a4.png)
+
 
 
                                                              
