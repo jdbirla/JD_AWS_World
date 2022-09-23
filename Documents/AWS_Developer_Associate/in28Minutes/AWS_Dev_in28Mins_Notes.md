@@ -156,7 +156,88 @@ Request ID
 ![image](https://user-images.githubusercontent.com/69948118/191887931-30e788d2-4be2-4a58-8d78-09dae8436585.png)
 ![image](https://user-images.githubusercontent.com/69948118/191887997-a2b13de5-c81a-4753-9259-8ce338355bd4.png)
 ![image](https://user-images.githubusercontent.com/69948118/191888029-9b78ecca-ff09-4e0f-b8ec-6046d20b4f87.png)
+![image](https://user-images.githubusercontent.com/69948118/191888641-d3896c69-27af-4984-9538-167706f46add.png)
+### Request Mapping template
+```
+##  See http://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-mapping-template-reference.html
+##  This template will pass through all parameters including path, querystring, header, stage variables, and context through to the integration endpoint via the body/payload
+#set($allParams = $input.params())
+{
+"body-json" : $input.json('$'),
+"params" : {
+#foreach($type in $allParams.keySet())
+    #set($params = $allParams.get($type))
+"$type" : {
+    #foreach($paramName in $params.keySet())
+    "$paramName" : "$util.escapeJavaScript($params.get($paramName))"
+        #if($foreach.hasNext),#end
+    #end
+}
+    #if($foreach.hasNext),#end
+#end
+},
+"stage-variables" : {
+#foreach($key in $stageVariables.keySet())
+"$key" : "$util.escapeJavaScript($stageVariables.get($key))"
+    #if($foreach.hasNext),#end
+#end
+},
+"context" : {
+    "account-id" : "$context.identity.accountId",
+    "api-id" : "$context.apiId",
+    "api-key" : "$context.identity.apiKey",
+    "authorizer-principal-id" : "$context.authorizer.principalId",
+    "caller" : "$context.identity.caller",
+    "cognito-authentication-provider" : "$context.identity.cognitoAuthenticationProvider",
+    "cognito-authentication-type" : "$context.identity.cognitoAuthenticationType",
+    "cognito-identity-id" : "$context.identity.cognitoIdentityId",
+    "cognito-identity-pool-id" : "$context.identity.cognitoIdentityPoolId",
+    "http-method" : "$context.httpMethod",
+    "stage" : "$context.stage",
+    "source-ip" : "$context.identity.sourceIp",
+    "user" : "$context.identity.user",
+    "user-agent" : "$context.identity.userAgent",
+    "user-arn" : "$context.identity.userArn",
+    "request-id" : "$context.requestId",
+    "resource-id" : "$context.resourceId",
+    "resource-path" : "$context.resourcePath"
+    }
+}
 
+```
+### Request Mapping values
+```
+2022-09-23T03:52:15.654Z	edda7f85-0778-4bc5-9bfd-7ecfa7a7199a	INFO	{
+  'body-json': {},
+  params: {
+    path: {},
+    querystring: { query1: 'query-value1', query2: 'query-value2' },
+    header: { header2: 'header-value2', header1: 'header-value1' }
+  },
+  'stage-variables': {},
+  context: {
+    'account-id': '619024142453',
+    'api-id': '56tamyhnta',
+    'api-key': 'test-invoke-api-key',
+    'authorizer-principal-id': '',
+    caller: 'AIDAZAIFW2B26ALSC5FCI',
+    'cognito-authentication-provider': '',
+    'cognito-authentication-type': '',
+    'cognito-identity-id': '',
+    'cognito-identity-pool-id': '',
+    'http-method': 'GET',
+    stage: 'test-invoke-stage',
+    'source-ip': 'test-invoke-source-ip',
+    user: 'AIDAZAIFW2B26ALSC5FCI',
+    'user-agent': 'aws-internal/3 aws-sdk-java/1.12.284 Linux/5.4.207-126.363.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.342-b07 java/1.8.0_342 vendor/Oracle_Corporation cfg/retry-mode/standard',
+    'user-arn': 'arn:aws:iam::619024142453:user/jdbirla_dev',
+    'request-id': '08b87d20-85bf-48c1-8517-16b3f3290ee6',
+    'resource-id': 'uve4yt',
+    'resource-path': '/hello-world'
+  }
+}
+
+```
 
 
                                                              
