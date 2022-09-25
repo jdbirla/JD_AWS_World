@@ -1,0 +1,72 @@
+{
+    "Comment": "A Retry and Catch example of the Amazon States Language using an AWS Lambda Function",
+    "StartAt": "InvokeMyFunction",
+    "States": {
+      "InvokeMyFunction": {
+        "Type": "Task",
+        "Resource": "<enter resource ARN here>",
+        "Retry": [
+          {
+            "ErrorEquals": [
+              "CustomError"
+            ],
+            "IntervalSeconds": 1,
+            "MaxAttempts": 2,
+            "BackoffRate": 2
+          },
+          {
+            "ErrorEquals": [
+              "States.TaskFailed"
+            ],
+            "IntervalSeconds": 30,
+            "MaxAttempts": 2,
+            "BackoffRate": 2
+          },
+          {
+            "ErrorEquals": [
+              "States.ALL"
+            ],
+            "IntervalSeconds": 5,
+            "MaxAttempts": 5,
+            "BackoffRate": 2
+          }
+        ],
+        "Catch": [
+          {
+            "ErrorEquals": [
+              "CustomError"
+            ],
+            "Next": "CustomErrorFallback"
+          },
+          {
+            "ErrorEquals": [
+              "States.TaskFailed"
+            ],
+            "Next": "ReservedTypeFallback"
+          },
+          {
+            "ErrorEquals": [
+              "States.ALL"
+            ],
+            "Next": "CatchAllFallback"
+          }
+        ],
+        "End": true
+      },
+      "CustomErrorFallback": {
+        "Type": "Pass",
+        "Result": "This is a fallback from a custom lambda function exception",
+        "End": true
+      },
+      "ReservedTypeFallback": {
+        "Type": "Pass",
+        "Result": "This is a fallback from a reserved error code",
+        "End": true
+      },
+      "CatchAllFallback": {
+        "Type": "Pass",
+        "Result": "This is a fallback from a reserved error code",
+        "End": true
+      }
+    }
+  }

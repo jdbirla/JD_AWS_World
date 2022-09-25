@@ -1,0 +1,22 @@
+# Add a Metadata section to your SAM template file template.yaml
+Metadata:
+  AWS::ServerlessRepo::Application:
+    Name: my-app
+    Description: Hello World
+    Author: Stephane
+    SemanticVersion: 0.0.1
+
+
+# add a parameter to the template itself
+Parameters:
+  CustomName:
+    Type: String
+
+# pass the parameter as an environment variable
+Resources:
+  HelloWorldFunction:
+    Properties:
+      Environment:
+        Variables:
+          CUSTOM_NAME: !Ref CustomName
+
