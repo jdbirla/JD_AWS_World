@@ -34,6 +34,8 @@ build/
 Maven_ws/
 Jenkins_WS/
 Devops_WS/
+my_secrects/
 
 ## AWS ##
 *.pem
+*.ppk
