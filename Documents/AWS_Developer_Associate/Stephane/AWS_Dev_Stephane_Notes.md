@@ -8,3 +8,7 @@
 Installing AWS CLI
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 ![image](https://user-images.githubusercontent.com/69948118/192139328-de73f308-1f79-449b-9ff0-ca64a0d2509a.png)
+![image](https://user-images.githubusercontent.com/69948118/192139997-9c2aac8f-a3fc-4c40-aa67-4c8d87bb64d3.png)
+![image](https://user-images.githubusercontent.com/69948118/192140027-b17dc835-6eff-4aaa-8a8c-0c2ef6092f01.png)
+![image](https://user-images.githubusercontent.com/69948118/192140405-99a35289-4622-4ab2-899e-4c6f3dfbe7f5.png)
+![image](https://user-images.githubusercontent.com/69948118/192140440-c823affa-63e5-44c0-9039-e41347559a18.png)
