@@ -12,3 +12,8 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 ![image](https://user-images.githubusercontent.com/69948118/192140027-b17dc835-6eff-4aaa-8a8c-0c2ef6092f01.png)
 ![image](https://user-images.githubusercontent.com/69948118/192140405-99a35289-4622-4ab2-899e-4c6f3dfbe7f5.png)
 ![image](https://user-images.githubusercontent.com/69948118/192140440-c823affa-63e5-44c0-9039-e41347559a18.png)
+![image](https://user-images.githubusercontent.com/69948118/192416001-cc636c6e-0239-42a0-a9fb-08cd956833a0.png)
+![image](https://user-images.githubusercontent.com/69948118/192416089-44321dff-03ed-4d97-86ce-c39fbc87ac07.png)
+![image](https://user-images.githubusercontent.com/69948118/192416592-e4a51e1f-e575-4fa5-94db-ed44ce99bf97.png)
+![image](https://user-images.githubusercontent.com/69948118/192418813-2c26081b-e8f9-475c-81a0-bcd223b25879.png)
+![image](https://user-images.githubusercontent.com/69948118/192418854-4a250223-f43f-4904-ae46-236dbe9e009d.png)
