@@ -41,4 +41,22 @@ Amplify simplifies the integration process and abstracts away some of the low-le
 ![DynamoDB _ Medium_00024](https://github.com/jdbirla/JD_AWS_World/assets/69948118/524b49b2-1b54-49fd-9343-3761ddc9cb67)
 ![DynamoDB _ Medium_00025](https://github.com/jdbirla/JD_AWS_World/assets/69948118/344bbeb9-0ed1-4312-af75-e94f897d3842)
 
+### Spring Data Synamodb
+- https://howtodoinjava.com/spring-boot/access-dynamodb-with-spring/
+
+![DynamoDB with Spring Boot - DynamoDBMapper and JPA_00001](https://github.com/jdbirla/JD_AWS_World/assets/69948118/ba77f334-4588-4e43-bd7d-c7e5a5ed89c7)
+![DynamoDB with Spring Boot - DynamoDBMapper and JPA_00002](https://github.com/jdbirla/JD_AWS_World/assets/69948118/b367e7a3-0781-4051-9776-7dc6ecf35550)
+![DynamoDB with Spring Boot - DynamoDBMapper and JPA_00003](https://github.com/jdbirla/JD_AWS_World/assets/69948118/2dff4ccb-1655-467e-8cfb-ca68ea7a0d1f)
+![DynamoDB with Spring Boot - DynamoDBMapper and JPA_00004](https://github.com/jdbirla/JD_AWS_World/assets/69948118/9eb9882e-cdee-4424-ad52-f3e20993b46b)
+![DynamoDB with Spring Boot - DynamoDBMapper and JPA_00005](https://github.com/jdbirla/JD_AWS_World/assets/69948118/dca472c6-2ab2-4dc9-baa9-9891f929d71c)
+![DynamoDB with Spring Boot - DynamoDBMapper and JPA_00006](https://github.com/jdbirla/JD_AWS_World/assets/69948118/f40d9317-3c26-4e3f-9970-2782956d3615)
+![DynamoDB with Spring Boot - DynamoDBMapper and JPA_00007](https://github.com/jdbirla/JD_AWS_World/assets/69948118/e9ff1f59-249b-49da-92e9-eb24a48f9ff7)
+![DynamoDB with Spring Boot - DynamoDBMapper and JPA_00008](https://github.com/jdbirla/JD_AWS_World/assets/69948118/9a04d7d1-0d51-41d1-bcf7-4c5641a85a1c)
+![DynamoDB with Spring Boot - DynamoDBMapper and JPA_00009](https://github.com/jdbirla/JD_AWS_World/assets/69948118/1cc26c10-a494-4fbf-9638-69fb4741d724)
+![DynamoDB with Spring Boot - DynamoDBMapper and JPA_00010](https://github.com/jdbirla/JD_AWS_World/assets/69948118/70b0c2f5-adea-4609-9409-af21c90718d8)
+![DynamoDB with Spring Boot - DynamoDBMapper and JPA_00011](https://github.com/jdbirla/JD_AWS_World/assets/69948118/358878d7-f0fa-45af-ad15-e2bded531414)
+![DynamoDB with Spring Boot - DynamoDBMapper and JPA_00012](https://github.com/jdbirla/JD_AWS_World/assets/69948118/84b3f10d-4dc6-41b1-a74f-3a39e9ffa704)
+![DynamoDB with Spring Boot - DynamoDBMapper and JPA_00013](https://github.com/jdbirla/JD_AWS_World/assets/69948118/fcf6e432-c1c3-4d69-9bf0-9a6c33f0f523)
+![DynamoDB with Spring Boot - DynamoDBMapper and JPA_00014](https://github.com/jdbirla/JD_AWS_World/assets/69948118/b41f456a-736c-4682-8227-ec206ae7f714)
+![DynamoDB with Spring Boot - DynamoDBMapper and JPA_00015](https://github.com/jdbirla/JD_AWS_World/assets/69948118/e919cfcf-b0f2-4208-90d6-eddd59636883)
 
