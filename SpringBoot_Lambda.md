@@ -1,0 +1,20 @@
+# Spring Boot Lambda
+- https://howtodoinjava.com/aws/create-deploy-aws-lambda-function/
+
+![AWS Lambda Function Example_00001](https://github.com/jdbirla/JD_AWS_World/assets/69948118/a36d9599-adc0-49fc-98c9-485d0e401476)
+![AWS Lambda Function Example_00002](https://github.com/jdbirla/JD_AWS_World/assets/69948118/35ee9e4b-68c4-4e43-8908-c2c10db0bf5e)
+![AWS Lambda Function Example_00003](https://github.com/jdbirla/JD_AWS_World/assets/69948118/3eaf64bf-3108-4b73-9d3a-34300c7069c3)
+![AWS Lambda Function Example_00004](https://github.com/jdbirla/JD_AWS_World/assets/69948118/80fdb033-f439-437c-ad36-cb4b61b6cf45)
+![AWS Lambda Function Example_00005](https://github.com/jdbirla/JD_AWS_World/assets/69948118/7abb21e3-2324-4bb7-b368-1a418772ef97)
+![AWS Lambda Function Example_00006](https://github.com/jdbirla/JD_AWS_World/assets/69948118/dfc6fa6e-c5ff-41e1-bf31-a27b2ea9a692)
+![AWS Lambda Function Example_00007](https://github.com/jdbirla/JD_AWS_World/assets/69948118/e6b35b55-9e88-4b0a-862a-afd69aa42f60)
+![AWS Lambda Function Example_00008](https://github.com/jdbirla/JD_AWS_World/assets/69948118/ddb54803-cc91-44df-bac2-e1293d8dfa88)
+![AWS Lambda Function Example_00009](https://github.com/jdbirla/JD_AWS_World/assets/69948118/0f1d1738-265d-42c1-80f6-57be1b6476f5)
+![AWS Lambda Function Example_00010](https://github.com/jdbirla/JD_AWS_World/assets/69948118/c497797c-82b2-42e5-8ec7-9be5877bf04d)
+![AWS Lambda Function Example_00011](https://github.com/jdbirla/JD_AWS_World/assets/69948118/c9bea0a2-304a-4cf5-89fa-83064ee4bff8)
+![AWS Lambda Function Example_00012](https://github.com/jdbirla/JD_AWS_World/assets/69948118/4eb64f36-2ff4-449b-8040-d5535903e12e)
+![AWS Lambda Function Example_00013](https://github.com/jdbirla/JD_AWS_World/assets/69948118/40b26f98-2685-4d1c-a40e-5b09d3590914)
+![AWS Lambda Function Example_00014](https://github.com/jdbirla/JD_AWS_World/assets/69948118/13ec960d-440d-43b6-bfe1-f75a29f5c94c)
+![AWS Lambda Function Example_00015](https://github.com/jdbirla/JD_AWS_World/assets/69948118/45f44abe-7a54-4ada-b9e8-d9ec8bfae5ca)
+![AWS Lambda Function Example_00016](https://github.com/jdbirla/JD_AWS_World/assets/69948118/f05902bd-1941-4306-81c9-846dcb3eb93d)
+![AWS Lambda Function Example_00017](https://github.com/jdbirla/JD_AWS_World/assets/69948118/4fe0f2d6-94b9-4763-b9dd-df8a1f98b711)
